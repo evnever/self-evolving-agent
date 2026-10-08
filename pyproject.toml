@@ -1,0 +1,23 @@
+[project]
+name = "self-evolving-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "evnever", email = "3295284217@qq.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+self-evolving-agent = "self_evolving_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
