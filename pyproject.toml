@@ -10,7 +10,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-self-evolving-agent = "self_evolving_agent:main"
+self-evolving-agent = "self_evolving_agent.agent.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
